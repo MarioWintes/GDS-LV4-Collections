@@ -22,6 +22,12 @@ public class StudentSetDemo {
         studentSet.remove(new Student(1,"max"));
         System.out.println();
 
+        Student max2 = new Student(5, "max");
+        studentSet.add(max2);
+
+        Student jo2 = new Student(4, "jo");
+        studentSet.add(jo2);
+
         for (Student s : studentSet){
             System.out.println("s = " + s);
         }
