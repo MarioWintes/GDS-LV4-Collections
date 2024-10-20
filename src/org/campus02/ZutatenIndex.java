@@ -14,6 +14,7 @@ public class ZutatenIndex {
         mehlSeiten.add(2);
         mehlSeiten.add(1230);
         mehlSeiten.add(8);
+        mehlSeiten.add(81);
         mehlSeiten.add(10); // Initialisierung!!
 
         zutatenIndex.put("mehl", mehlSeiten);
